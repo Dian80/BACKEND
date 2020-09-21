@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="admin.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+
+    <title>Pengembalian</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+      <a class="navbar-brand" href="#"> SELAMAT DATANG ADMIN | <b>Perpustakaan Universitas Indonesia</b></a>
+      
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <div class="icon ml-4">
+          <h5>
+            <i class="fas fa-envelope mr-3" data-toggle="tooltip" title="Surat Masuk"></i>
+            <i class="fas fa-bell mr-3" data-toggle="tooltip" title="Notifikasi"></i>
+            <i class="fas fa-sign-out-alt mr-3" data-toggle="tooltip" title="Sign Out"></i>
+          </h5>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row no-gutters mt-5">
+      <div class="col-md-2 bg-dark mt-2 pr-3 pt-4">
+            <ul class="nav flex-column mr-3 mb-5">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="peminjam.html"><i class="fas fa-user-graduate"></i>  Peminjam</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="penjaga_perpus.html"><i class="fas fa-user-friends"></i>Penjaga Perpus</a><hr class="bg-secondary">
+              </li>             
+              <li class="nav-item">
+                <a class="nav-link text-white" href="jumlah_buku.html"><i class="fas fa-plus"></i> Total Buku</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="peminjaman.html"><i class="fas fa-calendar-week"></i> Peminjaman Hari Ini</a><hr class="bg-secondary">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="pengembalian.html"><i class="far fa-clock"></i>  Pengembalian Hari Ini</a><hr class="bg-secondary">
+              </li>
+            </ul>
+      </div>
+      <div class="col-md-10 p-5 pt-2">
+
+         <h3><i class="fas fa-user-graduate"></i> DATA PENGEMBALIAN</h3><hr>
+
+         <a href="" class="btn btn-dark text-white mb-3"><i class="fas fa-user-plus mr-2 "></i><b> TAMBAH DATA JUMLAH PENGEMBALIAN BUKU</b></a>
+         <table class ="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Nama</th>
+              <th scope="col">Alamat</th>
+              <th scope="col">Tempat,Tanggal/Lahir</th>
+              <th scope="col">Jenis Kelamin</th>
+              <th colspan="3" scope="col">Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Raden</td>
+              <td>Pasuruan</td>
+              <td>Pasuruan, 6-Januari-1998</td>
+              <td>Laki-Laki</td>
+              <td><a href="" class="btn btn-success">Detail</a></td>
+              <td><i class="fas fa-user-edit bg-primary text-white rounded p-2" data-toggle="tooltip" title="Edit"> Edit</i></td>
+              <td><i class="fas fa-trash bg-danger p-2 text-white rounded"data-toggle="tooltip" title="Delete"> Delete</i></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Lukman Maulana</td>
+              <td>Surabaya</td>
+              <td>Surabaya,1-Desember-1995</td>
+              <td>Laki-Laki</td>
+              <td><a href="" class="btn btn-success">Detail</a></td>
+              <td><i class="fas fa-user-edit bg-primary text-white rounded p-2"data-toggle="tooltip" title="Edit"> Edit</i></td>
+              <td><i class="fas fa-trash bg-danger p-2 text-white rounded"data-toggle="tooltip" title="Delete"> Delete</i></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Rania</td>
+              <td>Sidoarjo</td>
+              <td>Padang,10-Februari-1999</td>
+              <td>Perempuan</td>
+              <td><a href="" class="btn btn-success">Detail</a></td>
+              <td><i class="fas fa-user-edit bg-primary text-white rounded p-2"data-toggle="tooltip" title="Edit"> Edit</i></td>
+              <td><i class="fas fa-trash bg-danger p-2 text-white rounded"data-toggle="tooltip" title="Delete">Delete</i></td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Adiz</td>
+              <td>Arjosari</td>
+              <td>Malang,15-Agustus</td>
+              <td>Perempuan</td>
+              <td><a href="" class="btn btn-success">Detail</a></td>
+              <td><i class="fas fa-user-edit bg-primary text-white rounded p-2"data-toggle="tooltip" title="Edit"> Edit</i></td>
+              <td><i class="fas fa-trash bg-danger p-2 text-white rounded"data-toggle="tooltip" title="Delete"> Delete</i></td> 
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Ryan</td>
+              <td>Blitar</td>
+              <td>Blitar,10-Mei-1998</td>
+              <td>Laki-Laki</td>
+              <td><a href="" class="btn btn-success">Detail</a></td>
+              <td><i class="fas fa-user-edit bg-primary text-white rounded p-2"data-toggle="tooltip" title="Edit"> Edit</i></td>
+              <td><i class="fas fa-trash bg-danger p-2 text-white rounded"data-toggle="tooltip" title="Delete"> Delete</i></td> 
+            </tr>
+          </tbody>
+        </table>
+             </div>
+          </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="admin.js"></script>
+  </body>
+</html>
